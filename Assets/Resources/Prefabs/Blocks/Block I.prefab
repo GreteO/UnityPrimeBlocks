@@ -365,7 +365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canRotate: 1
-  minRotate: 0
+  minRotate: 1
   moveSound: {fileID: 8300000, guid: 39e108e8837076a4bb0c67caa5afd9a4, type: 3}
   rotateSound: {fileID: 8300000, guid: fc07f46a43d4d704daef0c3d02ed7d7a, type: 3}
   landSound: {fileID: 8300000, guid: fc61c663b9582ae4abd05ed64e88baab, type: 3}

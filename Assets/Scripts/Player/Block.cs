@@ -30,7 +30,7 @@ public class Block : MonoBehaviour
     private bool moved = false;
     private bool inPositionBlock;
 
-    private int touchSensitivityHorizontal = 8;
+    private int touchSensitivityHorizontal = 4;
     private int touchSensitivityVertical = 4;
 
     private Vector2 prevousUnitPosition = Vector2.zero;
