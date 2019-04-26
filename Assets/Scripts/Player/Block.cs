@@ -19,7 +19,7 @@ public class Block : MonoBehaviour
     private float fall;
     private float verticalMoveSpeed = 0.02f;
     private float horizontalMoveSpeed = 0.03f;
-    private float holdDownDelay = 0.2f;
+    private float holdDownDelay = 0.1f;
     private float verticalDelay = 0;
     private float horizontalDelay = 0;
     private float holdDownTimerHorizontal = 0;
@@ -30,8 +30,8 @@ public class Block : MonoBehaviour
     private bool moved = false;
     private bool inPositionBlock;
 
-    private int touchSensitivityHorizontal = 4;
-    private int touchSensitivityVertical = 4;
+    private int touchSensitivityHorizontal = 3;
+    private int touchSensitivityVertical = 3;
 
     private Vector2 prevousUnitPosition = Vector2.zero;
     private Vector2 direction = Vector2.zero;
@@ -391,12 +391,7 @@ public class Block : MonoBehaviour
                 {
                     transform.Rotate(0, 0, -90);
                 }
-
-
             }
-
-
-
         }
     }
 }

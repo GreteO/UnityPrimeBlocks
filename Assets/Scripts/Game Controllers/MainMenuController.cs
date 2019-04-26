@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class MainMenuController : MonoBehaviour
 {
 
-    public GameObject optionPanel, exitPanel, howToPlayPanel;
+    public GameObject optionPanel, exitPanel;
 
     public Toggle musicToggle;
     // Start is called before the first frame update
@@ -42,11 +42,6 @@ public class MainMenuController : MonoBehaviour
             if (optionPanel.activeInHierarchy)
             {
                 optionPanel.SetActive(false);
-            }
-
-            if (howToPlayPanel.activeInHierarchy)
-            {
-                howToPlayPanel.SetActive(false);
             }
         }
     }
@@ -90,15 +85,5 @@ public class MainMenuController : MonoBehaviour
     public void NoButton()
     {
         exitPanel.SetActive(false);
-    }
-
-    public void HowToPlayButton()
-    {
-        howToPlayPanel.SetActive(true);
-    }
-
-    public void CloseHowToPlay()
-    {
-        howToPlayPanel.SetActive(false);
     }
 }
